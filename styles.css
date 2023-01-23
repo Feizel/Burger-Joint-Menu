@@ -1,0 +1,101 @@
+body {
+    background-image: url(./images/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg);
+    background-size: contain;
+    font-family: Rubik, Arial;
+}
+
+form {
+    text-align: center;
+    line-height: 40px;
+    height: 80%;
+    overflow: scroll;
+}
+
+form hr {
+    width: 15%;
+}
+
+h1, h6 {
+    text-align: center;
+}
+h6, span {
+    padding: 0;
+    margin: 0;
+    line-height: normal;
+}
+
+p, h4 {
+    line-height: normal;
+}
+
+#burger {
+    max-height: 30%;
+}
+
+#overlay {
+    width: 80%;
+    margin: 3% auto;
+    height: 95vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+}
+
+#logo {
+    height: 100px;
+    display: block;
+    margin: auto;
+    filter: invert(1);
+}
+
+
+.toppings label,
+.cheesy label {
+    margin-right: 25px;
+}
+
+a {
+    color: black;
+}
+a:hover {
+    color: white;
+    transition: ease-in 0.2s;
+}
+a:active {
+    color: orangered;
+}
+
+.btn {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #212529;
+    background: #212529;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #212529;
+    transition: ease-in 0.2s;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+@media (max-width: 844px) {
+    form {
+        height: 100%;
+        margin: 0;
+        overflow: auto;
+    }
+}
